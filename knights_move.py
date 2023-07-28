@@ -17,6 +17,8 @@ for i in range(8):
             matrix[i][j] = '*'
 for row in matrix:
     print(*row)
+print("Hello")
+    
 
 
 

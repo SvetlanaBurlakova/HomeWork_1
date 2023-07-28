@@ -18,6 +18,7 @@ for i in range(8):
 for row in matrix:
     print(*row)
 print("Hello")
+print("New row")
     
 
 

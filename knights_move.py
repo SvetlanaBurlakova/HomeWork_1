@@ -14,7 +14,7 @@ for i in range(8):
 for i in range(8):
     for j in range(8):
         if abs(x - i) == abs(y - j) and matrix[i][j]!='Q':
-            matrix[i][j] = '*'
+            matrix[i][j] = '+'
 for row in matrix:
     print(*row)
 print("Hello")
